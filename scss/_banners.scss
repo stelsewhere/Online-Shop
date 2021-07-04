@@ -27,15 +27,15 @@
     background-repeat: no-repeat;
 
     &--midseason {
-        background-image: url('../img/Screenshot\ 2021-07-04\ at\ 13.34.52.png');
+        background-image: url('../img/prod-5.jpg');
     }
 
     &--summer {
-        background-image: url('../img/Screenshot\ 2021-07-04\ at\ 13.34.01.png');
+        background-image: url('../img/prod-3.jpg');
     }
 
     &--accs {
-        background-image: url('../img/product_6.png');
+        background-image: url('../img/prod-4.jpg');
     }
 
     &__title {
@@ -43,11 +43,11 @@
         max-width: 50%;
         margin: 0;
         margin-bottom: 20px;
-        color: white;
+        color: black;
     }
 
     &__link {
-        color: white;
+        color: black;
     }
 }
 

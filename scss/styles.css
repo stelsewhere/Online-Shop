@@ -24,6 +24,7 @@ nav, footer, header, aside {
 html, body {
   height: 100%;
   width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 100%;
   line-height: 1;
   font-size: 14px;
@@ -393,23 +394,23 @@ a {
   background-repeat: no-repeat;
 }
 .banners-article--midseason {
-  background-image: url("../img/Screenshot 2021-07-04 at 13.34.52.png");
+  background-image: url("../img/prod-5.jpg");
 }
 .banners-article--summer {
-  background-image: url("../img/Screenshot 2021-07-04 at 13.34.01.png");
+  background-image: url("../img/prod-3.jpg");
 }
 .banners-article--accs {
-  background-image: url("../img/product_6.png");
+  background-image: url("../img/prod-4.jpg");
 }
 .banners-article__title {
   font-size: 36px;
   max-width: 50%;
   margin: 0;
   margin-bottom: 20px;
-  color: white;
+  color: black;
 }
 .banners-article__link {
-  color: white;
+  color: black;
 }
 
 @media (max-width: 768px) {
