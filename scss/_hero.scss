@@ -1,0 +1,93 @@
+.hero {
+    height: 100vh;
+    min-height: 700px;
+    background-color: #eee;
+    background-image: url('../img/Screenshot\ 2021-07-04\ at\ 13.28.04.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__container {
+        position: relative;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0 200px;
+    }
+
+    &__title {
+        font-size: 72px;
+        max-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    &__descr {
+        font-size: 15px;
+        line-height: 140%;
+        max-width: 50%;
+    }
+
+    &__img {
+        position: absolute;
+        right: 200px;
+        width: 400px;
+    }
+}
+
+@media (max-width: (1200px)) {
+    .hero__container {
+        padding: 0 100px;
+    }
+
+    .hero__img {
+        right: 100px;
+    }
+}
+
+@media (max-width: (1024px)) {
+    .hero__container {
+        padding: 0 30px;
+    }
+
+    .hero__img {
+        right: 30px;
+    }
+}
+
+@media (max-width: (768px)) {
+    .hero__container {
+        padding: 0 30px;
+    }
+
+    .hero__title {
+        font-size: 62px;
+    }
+
+    .hero__img {
+        left: 30px;
+        bottom: 40px;
+        width: 40%;
+    }
+
+    .hero {
+    
+        &__container {
+            margin-top: -100px;
+        }
+    }
+}
+
+@media (max-width: (348px)) {
+    
+    .hero {
+        &__title {
+            font-size: 36px;
+        }
+
+        img {
+            width: 70%;
+        }
+
+    }
+}

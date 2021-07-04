@@ -1,0 +1,78 @@
+.banners {
+    &__container {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        flex-shrink: 0;
+        width: 33%;
+
+        &:not(:last-child) {
+            margin-right: 0.6%;
+        }
+    }
+}
+
+.banners-article {
+    min-height: 290px;
+    padding: 60px;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &--midseason {
+        background-image: url('../img/Screenshot\ 2021-07-04\ at\ 13.34.52.png');
+    }
+
+    &--summer {
+        background-image: url('../img/Screenshot\ 2021-07-04\ at\ 13.34.01.png');
+    }
+
+    &--accs {
+        background-image: url('../img/product_6.png');
+    }
+
+    &__title {
+        font-size: 36px;
+        max-width: 50%;
+        margin: 0;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    &__link {
+        color: white;
+    }
+}
+
+@media (max-width: (768px)) {
+
+    .hero__title {
+        max-width: 100%;
+    }
+
+    .hero__descr {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .banners {
+        &__list {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            width: 100%;
+
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

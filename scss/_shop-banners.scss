@@ -1,0 +1,64 @@
+.shop-banners {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+}
+
+.shop-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-height: 420px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &--croissants {
+        background-image: url('../img/Screenshot\ 2021-07-04\ at\ 13.34.01.png');
+    }
+
+    &--ponchiki {
+        background-image: url('../img/Screenshot\ 2021-07-04\ at\ 13.28.04.png');
+    }
+
+    &__title {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: (1024px)) {
+    .shop-banner {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: (768px)) {
+    .shop-banner {
+        min-height: 300px;
+        width: 100%;
+    }
+
+    .shop-banners {
+        &__container {
+            flex-direction: column;
+            padding: 40px;
+        }
+    }
+}
+
+@media (max-width: (320px)) {
+
+    .shop-banners {
+        &__container {
+            padding: 0px;
+        }
+    }
+}

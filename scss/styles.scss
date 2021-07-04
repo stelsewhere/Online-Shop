@@ -1,0 +1,18 @@
+@import "settings";
+@import "overall";
+
+/* Home */
+@import "header";
+@import "nav";
+@import "shop-nav";
+@import "hero";
+@import "banners";
+@import "main-products";
+@import "product";
+@import "shop-banners";
+@import "footer";
+
+/* Catalog */
+@import "hero-catalog";
+@import "breadcrumbs";
+@import "catalog-filters";
